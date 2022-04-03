@@ -39,7 +39,7 @@ from collections import defaultdict, Counter
 
 import networkx as nx
 
-#from agents import Agent, Glitter, Bump, Stench, Breeze, Scream
+from agents import Agent, Glitter, Bump, Stench, Breeze, Scream
 from csp import parse_neighbors, UniversalDict
 from search import astar_search, PlanRoute
 from utils import remove_all, unique, first, probability, isnumber, issequence, Expr, expr, subexpressions, extend
